@@ -20,6 +20,8 @@ def left(q, p, list):
 def next(q, p, list):
    return conde([left(q, p, list)], [left(p, q, list)])
 
+# Zebra probelm   
+
 houses = var()
 
 rules_zebraproblem = lall(
